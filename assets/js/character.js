@@ -17,3 +17,14 @@ class Fighter extends Character {
         //Elle coute 20 mana.
     }
 }
+
+class Paladin extends Character {
+    constructor(name, hp = 16, dmg = 3, mana = 160, status) {
+        super(hp, dmg, mana, status);
+        this.name = name;
+
+        //Le Paladin aura une attaque spéciale Healing Lighting, 
+        //infligeant 4 dégâts et le soignant de 5.
+        //Elle coute 40 mana.
+    }
+}

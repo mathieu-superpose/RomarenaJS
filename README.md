@@ -1,6 +1,3 @@
-# RomarenaJS
-
-
 <p align="center">
   <img alt="RomarenaJS" src="https://github.com/mathieu-superpose/RomarenaJS/blob/master/assets/images/romarenajs_logo.png"/>
 </p>

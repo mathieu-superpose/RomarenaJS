@@ -5,6 +5,11 @@ class Character {
         this.mana = mana;
         this.status = status;
     }
+
+    deadLoser = () => {
+        this.status = 'loser';
+        console.log(this.name + " is dead and becomes a loser");
+    }
 }
 
 class Fighter extends Character {

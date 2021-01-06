@@ -10,6 +10,17 @@ class Character {
         this.status = 'loser';
         console.log(this.name + " is dead and becomes a loser");
     }
+
+    takeDamage = (dmg) => {
+        this.hp -= dmg;
+        console.log(this.name + " took " + dmg + " damages");
+
+        if (this.hp > 0) {
+            console.log(this.name + " has " + this.hp + " hp left");
+        } else {
+        	this.deadLoser();
+        }
+    }
 }
 
 class Fighter extends Character {

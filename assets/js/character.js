@@ -21,6 +21,11 @@ class Character {
         	this.deadLoser();
         }
     }
+
+    dealDamage = (victim) => {
+        console.log(this.name + " attaks " + victim.name);
+        victim.takeDamage(this.dmg);
+    }
 }
 
 class Fighter extends Character {

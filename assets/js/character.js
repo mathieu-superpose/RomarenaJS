@@ -50,3 +50,15 @@ class Berzerker extends Character {
         //si le Berzerker a fait son attaque spéciale 2 fois, ses attaques infligeront 4 + 2 = 6 points de dégât).
     }
 }
+
+class Assassin extends Character {
+    constructor(name, hp = 30, dmg = 6, mana = 90, status) {
+        super(hp, dmg, mana, status);
+        this.name = name;
+
+        //L'Assassin aura une attaque spéciale Shadow hit lui permettant de 
+        //ne pas prendre de dégâts lors du prochain tour. 
+        //Il portera alors une attaque spéciale infligeant 7 dégâts puis, si l'adversaire n'est pas mort, 
+        //l'assassin perdra 7 dégâts à son tour. Cette attaque coûte 20 mana.
+    }
+}

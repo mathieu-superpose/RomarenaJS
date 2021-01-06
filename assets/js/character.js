@@ -28,3 +28,13 @@ class Paladin extends Character {
         //Elle coute 40 mana.
     }
 }
+
+class Monk extends Character {
+    constructor(name, hp = 8, dmg = 3, mana = 200, status) {
+        super(hp, dmg, mana, status);
+        this.name = name;
+
+        //Le Monk, quand a lui, aura une attaque spéciale heal rendant 8 PV. 
+        //Elle coute 25 mana.
+    }
+}

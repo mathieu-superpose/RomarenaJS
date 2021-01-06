@@ -38,3 +38,15 @@ class Monk extends Character {
         //Elle coute 25 mana.
     }
 }
+
+class Berzerker extends Character {
+    constructor(name, hp = 40, dmg = 9, mana = 10, status) {
+        super(hp, dmg, mana, status);
+        this.name = name;
+
+        //Le Berzerker aura une attaque spéciale Rage lui donnant +1 pour ses attaques 
+        //pour tout le reste de la partie mais lui enlevant 1 hp. 
+        //Elle coûte 0 mana. Elle peut être appelée plusieurs fois (par exemple, 
+        //si le Berzerker a fait son attaque spéciale 2 fois, ses attaques infligeront 4 + 2 = 6 points de dégât).
+    }
+}

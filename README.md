@@ -1,7 +1,10 @@
 # RomarenaJS
-_hit me!!_
 
-<!-- ![](assets/images/romarenajs_logo.png?raw=true) -->
+
+<p align="center">
+  <img alt="RomarenaJS" src="https://github.com/mathieu-superpose/RomarenaJS/blob/master/assets/images/romarenajs_logo.png"/>
+</p>
+_hit me!!_
 
 ## Application
 
